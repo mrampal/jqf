@@ -199,12 +199,12 @@
         <snapshotRepository>
             <id>ossrh</id>
             <name>OSSRH Snapshots Repository</name>
-            <url>https://oss.sonatype.org/content/repositories/snapshots</url>
+            <url>http://localhost:8081/repository/maven-snapshots/</url>
         </snapshotRepository>
         <repository>
             <id>ossrh</id>
             <name>OSSRH Releases Repository</name>
-            <url>https://oss.sonatype.org/service/local/staging/deploy/maven2</url>
+            <url>http://localhost:8081/repository/maven-releases/</url>
         </repository>
         <downloadUrl>https://oss.sonatype.org/content/groups/public</downloadUrl>
     </distributionManagement>
